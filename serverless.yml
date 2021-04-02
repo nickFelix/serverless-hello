@@ -10,7 +10,8 @@
 #    docs.serverless.com
 #
 # Happy Coding!
-
+org: nickfelix
+app: myapp
 service: hello
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
