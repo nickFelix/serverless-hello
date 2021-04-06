@@ -61,6 +61,8 @@ provider:
 #    - include-me-dir/**
 
 functions:
+  nicFunction:
+    handler: src/functions/nicFunction.nicFunction
   testFunction:
     handler: src/functions/testFunction.testFunction
   hello:
@@ -124,7 +126,7 @@ functions:
 plugins:
   - serverless-pseudo-parameters
   - serverless-mocha
-custom: 
+custom:
   serverless-mocha-plugin:
     testTemplate: templates/test-template.ejs
     functionTemplate: templates/function-template.ejs
